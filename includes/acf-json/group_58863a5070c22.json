@@ -1,0 +1,423 @@
+{
+    "key": "group_58863a5070c22",
+    "title": "Event",
+    "fields": [
+        {
+            "key": "field_59bd64cd4af47",
+            "label": "Event cancelled",
+            "name": "event_cancelled",
+            "type": "true_false",
+            "instructions": "Check if event is cancelled",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "Event is cancelled",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_59bd07ee413aa",
+            "label": "Event URL",
+            "name": "event_url",
+            "type": "url",
+            "instructions": "The website of the event (Website, Facebook event, etc.)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_59bd02fffd080",
+            "label": "Event organizer",
+            "name": "event_organizer",
+            "type": "textarea",
+            "instructions": "The name(s) of the organizer(s)",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "maxlength": "",
+            "rows": "2",
+            "new_lines": ""
+        },
+        {
+            "key": "field_59bd027dfd03e",
+            "label": "Event date and time",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_59bd1773b7e1b",
+            "label": "Event date",
+            "name": "event_date",
+            "type": "date_picker",
+            "instructions": "The date of the event",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50%",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "d.m.Y",
+            "return_format": "d.m.Y",
+            "first_day": 1
+        },
+        {
+            "key": "field_59bd009645fa2",
+            "label": "Time",
+            "name": "event_time",
+            "type": "time_picker",
+            "instructions": "The time of open doors",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50%",
+                "class": "",
+                "id": ""
+            },
+            "display_format": "H:i",
+            "return_format": "H:i"
+        },
+        {
+            "key": "field_59bd02b4fd03f",
+            "label": "Venue & Location",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_59bd02fffd040",
+            "label": "Venue name",
+            "name": "venue_name",
+            "type": "text",
+            "instructions": "The name of the venue",
+            "required": 1,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_59bd67a5ecd32",
+            "label": "Street address",
+            "name": "venue_address",
+            "type": "text",
+            "instructions": "The address of the venue",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_59bd67daecd33",
+            "label": "Postal code",
+            "name": "venue_postal_code",
+            "type": "text",
+            "instructions": "The postal code of the venue",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50%",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_533ebce0daa04",
+            "label": "City",
+            "name": "venue_city",
+            "type": "text",
+            "instructions": "The city of the venue",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50%",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_59bd0318fd041",
+            "label": "Region",
+            "name": "venue_region",
+            "type": "text",
+            "instructions": "The region or state of the venue",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50%",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_533ebd2ddaa05",
+            "label": "Country",
+            "name": "venue_country",
+            "type": "text",
+            "instructions": "The country of the venue",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50%",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "Finland",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_59bd03f22c826",
+            "label": "Venue website url",
+            "name": "venue_url",
+            "type": "url",
+            "instructions": "The website of the venue",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_59bd032afd042",
+            "label": "Tickets",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
+        {
+            "key": "field_533ebd47daa06",
+            "label": "Ticket price",
+            "name": "ticket_price",
+            "type": "text",
+            "instructions": "The price of the ticket",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50%",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_59bd0340fd043",
+            "label": "Currency",
+            "name": "ticket_currency",
+            "type": "select",
+            "instructions": "The currency on the ticket price",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50%",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "EUR": "Euro",
+                "USD": "USD"
+            },
+            "default_value": [
+                "EUR"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "ui": 0,
+            "ajax": 0,
+            "return_format": "value",
+            "placeholder": ""
+        },
+        {
+            "key": "field_59bd04172c827",
+            "label": "Ticket url",
+            "name": "ticket_url",
+            "type": "url",
+            "instructions": "The website where to buy tickets",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_59bd03a1fd044",
+            "label": "Other performers",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 1
+        },
+        {
+            "key": "field_59bd019430f9a",
+            "label": "Performers",
+            "name": "performers",
+            "type": "repeater",
+            "instructions": "List all the performers of the event",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "collapsed": "",
+            "min": 0,
+            "max": 0,
+            "layout": "table",
+            "button_label": "Add performer",
+            "sub_fields": [
+                {
+                    "key": "field_59bd01a430f9b",
+                    "label": "Performer",
+                    "name": "performer_name",
+                    "type": "text",
+                    "instructions": "The name of the performer",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": ""
+                },
+                {
+                    "key": "field_59bd01b630f9c",
+                    "label": "Website",
+                    "name": "performer_url",
+                    "type": "url",
+                    "instructions": "The url of the performers website",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": ""
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "event"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": false
+}
